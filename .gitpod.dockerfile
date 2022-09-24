@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full-vnc:latest
+FROM gitpod/workspace-full:latest
 
 # Docker build does not rebuild an image when a base image is changed, increase this counter to trigger it.
 ENV TRIGGER_REBUILD 3
@@ -7,8 +7,6 @@ ENV TRIGGER_REBUILD 3
 RUN sudo apt-get update \
     # window manager
     && sudo apt-get install -y jwm \
-    # electron
-    && sudo apt-get install -y libgtk-3-0 libnss3 libasound2 libgbm1 \
     # native-keymap
     && sudo apt-get install -y libx11-dev libxkbfile-dev \
     # keytar
