@@ -34,15 +34,6 @@
       "path": "dev-packages/request"
     },
     {
-      "path": "examples/api-samples"
-    },
-    {
-      "path": "examples/browser"
-    },
-    {
-      "path": "examples/electron"
-    },
-    {
       "path": "examples/playwright"
     },
     {
@@ -77,9 +68,6 @@
     },
     {
       "path": "packages/getting-started"
-    },
-    {
-      "path": "packages/git"
     },
     {
       "path": "packages/keymaps"
@@ -176,6 +164,9 @@
     },
     {
       "path": "packages/workspace"
+    },
+    {
+      "path": "examples/assembly"
     }
   ]
 }
